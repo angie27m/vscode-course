@@ -1,4 +1,4 @@
-import { SuperHero } from './extra/classes';
+import { Hero as MyHero } from './extra/classes';
 
 //* 
 //*     Objetivo:
@@ -11,9 +11,9 @@ import { SuperHero } from './extra/classes';
 //* 
 
 
-const wolverine = new SuperHero();
-const ironman   = new SuperHero();
-const spiderman = new SuperHero();
+const wolverine = new MyHero();
+const ironman   = new MyHero();
+const spiderman = new MyHero();
 
 function greet() {
     return 'El SuperHero Wolverine es genial!';
